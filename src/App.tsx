@@ -13,13 +13,11 @@ function App() {
   const onCalculate = (): void => {
     try {
       const charge = calculateCharge(arrivalTime, departureTime, chargeType);
-      const chargeInPounds =  `£${(charge / 100).toFixed(2)}p`;
+      const chargeInPounds = `£${(charge / 100).toFixed(2)}p`;
       setResult(chargeInPounds);
     } catch (error) {
-      setResult(error);
+      setResult(error.message);
     }
-    
-
   }
 
   return (

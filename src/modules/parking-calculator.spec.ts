@@ -6,7 +6,7 @@ import {
     getDepartureDayCost,
     getShortStayCostPerDay,
     parkingCalculatorConfig
-}  from './parking-calculator'
+} from './parking-calculator'
 
 const sixAmMonday = new Date('07 Dec 2020 06:00:00');
 const nineAmMonday = new Date('07 Dec 2020 09:00:00');

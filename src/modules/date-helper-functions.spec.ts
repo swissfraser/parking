@@ -1,4 +1,4 @@
-import {getTimeOfDay,  isWeekend}  from './date-helper-functions'
+import { getTimeOfDay, isWeekend } from './date-helper-functions'
 
 
 const nineAmMonday = new Date('07 Dec 2020 09:00:00 GMT');
