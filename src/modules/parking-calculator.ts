@@ -36,13 +36,6 @@ const calculateShortStayCost = (arrival: Date, departure: Date): number => {
     return Math.floor(arrivalDayCost + departureDayCost + fullDaysCost);
 }
 
-/**
- * 
- * Solution from stack overflow https://stackoverflow.com/a/11771436
- * 
- * @param startDate 
- * @param endDate 
- */
 export const calculateChargeableDays = (startDate: Date, endDate: Date): number => {
     let elapsed = elapsedDays(startDate, endDate);
     // we have to pay for the day we arrived, regardless of when we leave

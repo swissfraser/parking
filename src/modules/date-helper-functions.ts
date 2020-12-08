@@ -8,6 +8,13 @@ export const getTimeOfDay = (date: Date): Date => {
 // number of milliseconds in one day
 const millisecondsInOneDay = 24 * 60 * 60 * 1000;
 
+/**
+ * 
+ * Solution from stack overflow https://stackoverflow.com/a/11771436
+ * 
+ * @param startDate 
+ * @param endDate 
+ */
 export const elapsedDays = (startDate: Date, endDate: Date): number => {
 
     // strip the time from the dates
