@@ -6,7 +6,7 @@ export const getTimeOfDay = (date: Date): Date => {
 }
 
 // number of milliseconds in one day
-var millisecondsInOneDay = 24 * 60 * 60 * 1000;
+const millisecondsInOneDay = 24 * 60 * 60 * 1000;
 
 export const elapsedDays = (startDate: Date, endDate: Date): number => {
 

@@ -2,9 +2,7 @@ import { getTimeOfDay, isWeekend } from './date-helper-functions'
 
 
 const nineAmMonday = new Date('07 Dec 2020 09:00:00 GMT');
-const fourPmMonday = new Date('07 Dec 2020 16:00:00 GMT');
 
-const nineAmTuesday = new Date('08 Dec 2020 09:00:00 GMT');
 const fourPmTuesday = new Date('08 Dec 2020 16:00:00 GMT');
 
 const fourPmSaturday = new Date('12 Dec 2020 16:00:00 GMT');
